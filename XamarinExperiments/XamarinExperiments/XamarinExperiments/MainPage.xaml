@@ -11,6 +11,10 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Label Text="Centre" 
+           HorizontalOptions="Start"
+           VerticalOptions="CenterAndExpand" />
+        <Button Text="SPIN!"/>
     </StackLayout>
 
 </ContentPage>
