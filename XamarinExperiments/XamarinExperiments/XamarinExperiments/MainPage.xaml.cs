@@ -17,9 +17,17 @@ namespace XamarinExperiments
         {
             InitializeComponent();
         }
-        async void OnButtonClicked(object sender, EventArgs args)
+        async void spin(object sender, EventArgs args)
         {
             await ping.RelRotateTo(360, 1000);
+        }
+        async void nips(object sender, EventArgs args)
+        {
+            await ping.RelRotateTo(-360, 1000);
+        }
+        async void reset(object sender, EventArgs args)
+        {
+            await ping.RotateTo(0);
         }
     }
 }

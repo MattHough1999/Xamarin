@@ -13,9 +13,22 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
         <Label Text="Centre" 
+               x:Name="set"
            HorizontalOptions="Start"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="SPIN!"/>
+        <Button Text="SPIN!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="spin" />
+        <Button Text="reset"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="reset" />
+        <Button Text="!NIPS"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="nips" />
+        
     </StackLayout>
 
 </ContentPage>
